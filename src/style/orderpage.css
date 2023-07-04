@@ -1,0 +1,217 @@
+@font-face {
+    font-family: Cent;
+    src: url(../font/Centurygothic/centurygothic.ttf);
+  }
+  @font-face {
+    font-family: Corma;
+    src: url(../font/CormorantSC/CormorantSC-Medium.ttf);
+  }
+
+  .main-content2 {
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2vw;
+  }
+  .nav-part {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    width: 80%;
+  }
+  .nav-part h3 {
+    font-family: Cent;
+    font-weight: 100;
+    color: black;
+    font-size: 1vw;
+  }
+  .nav-part img {
+    width: 0.5vw;
+    height: 1vw;
+    filter: brightness(80%);
+  }
+
+
+  .header-h1 {
+    width: 80%;
+    font-size: 2.5vw;
+    margin: 0;
+    font-family: Cent;
+  }
+
+
+
+  .main-content3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .contacts-h3 {
+    font-family: Cent;
+    font-size: 1.5vw;
+  }
+  .contacts-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+  }
+  .form-personal {
+    display: flex;
+    display: flex;
+    gap: 7vw;
+    width: 100%;
+  }
+  .form-personal-single {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+  }
+  .form-personal-label {
+    font-size: 1vw;
+    color: #787878;
+    font-family: Cent;
+  }
+  .form-personal-input, .form-select {
+    width: 100%;
+    padding: 0.5vw 1vw;
+    border-radius: 1.5vw;
+    border: 1px solid #787878;
+    font-size: 1vw;
+    font-family: Cent;
+  }
+  .form-personal-input {
+    width: 100%;
+  }
+  .form-select-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .delivery-method-container {
+    width: 100%;
+    margin: 2vw 0 0 0;
+  }
+  .delivery-h3 {
+    color: #787878;
+    font-size: 1.5vw;
+    font-family: Cent;
+  }
+  .delivery-buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    gap: 3vw;
+  }
+  .delivery-buttons-container2 {
+    margin-top: 2vw;
+  }
+  .delivery-button {
+    width: 50%;
+    background-color: #9B5A81;
+    color: white;
+    font-family: Cent;
+    border: 0;
+    border-radius: 1vw;
+    text-align: left;
+    padding-left: 2vw;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.322);
+    
+  }
+  .delivery-button:hover {
+    background-color: #8d4470;
+  }
+  .delivery-button:active {
+    background-color: #772958;
+  }  
+  .delivery-button-h3 {
+    margin: 1.5vw 0 0 0;
+    font-size: 1vw;
+  }
+  .delivery-button-p {
+    font-size: 0.8vw;
+    margin: 0.5vw 0 1.5vw 0;
+    color: #C3C4C7;
+  }
+  .delivery-approval {
+    display: flex;
+    gap: 1vw;
+    margin-top: 2vw;
+  }
+  .delivery-approval-text {
+    font-size: 1vw;
+    color: #787878;
+    text-decoration: underline;
+    font-family: Cent;
+  }
+
+  .delivery-cost-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    margin-top: 2vw;
+  }
+  .delivery-cost-h4 {
+    font-size: 1.4vw;
+    color: #787878;
+    font-size: Cent;
+  }
+  .delivery-cost-h3 {
+    font-size: 2vw;
+    color: #787878;
+    font-size: Cent;
+    text-decoration: underline;
+  }
+  .delivery-cost-button {
+    font-size: 1.3vw;
+    font-family: Cent;
+    background-color: #9B5A81;
+    color: white;
+    border-radius: 2.5vw;
+    border: none;
+    padding: 1vw 3vw;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .delivery-cost-button:hover {
+    background-color: #8f4d74;
+  }
+
+  /* ref */
+
+
+  .autofilling-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1vw;
+  }
+  .autofilling-button {
+    width: 30%;
+    padding: 1vw 1.5vw;
+    border-radius: 1vw;
+    border: none;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.281);
+    transition: 0.3s;
+    background-color: #944b75;
+    color: white;
+    font-family: Cent;
+    font-size: 1vw;
+    cursor: pointer;
+  }
+  .autofilling-button:hover {
+    background-color: #752152;
+  }

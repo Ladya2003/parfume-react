@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Cent;
+    src: url(../font/Centurygothic/centurygothic.ttf);
+  }
+  @font-face {
+    font-family: Corma;
+    src: url(../font/CormorantSC/CormorantSC-Medium.ttf);
+  }
+
+.header-container {
+    position: relative;
+}
+.header-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+    padding: 5vw 0 7vw 0;
+}
+.main-header-h1 {
+    font-size: 4vw;
+    font-family: Corma;
+    letter-spacing: 4px;
+    color: #9B5A81;
+}
+.main-header-h2 {
+    color: #9B5A81;
+    text-align: right;
+    font-family: Cent;
+    font-size: 2vw;
+}
+.main-header-h3 {
+    color: #9b5a81c0;
+    font-family: Cent;
+    font-size: 1.2vw;
+}
+
+
+.content-container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.bestsellers-container {
+    width: 80%;
+    padding-top: 5vw;
+}
+.bestsellers-h2 {
+    font-size: 2.3vw;
+    font-family: Cent;
+}
+.slider-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3vw;
+}
+.slider-single-perf {
+    position: relative;
+    width: 18vw;
+}
+.main-page-sale {
+    position: absolute;
+    width: 4vw;
+}
+.slider-perf-img {
+    width: 18vw;
+    height: 15vw;
+}
+.slider-perf-h1 {
+    font-size: 1.5vw;
+    font-family: Cent;
+}
+.slider-perf-h2 {
+    font-size: 1.3vw;
+    font-family: Cent;
+}
+
+
+.perfume-available-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+  }
+  .perfume-available-container img {
+    width: 1vw;
+    height: 1vw;
+  }
+  .perfume-available-container h3 {
+    font-size: 1vw;
+    color: inherit;
+    font-family: Cent;
+    font-weight: 100;
+  }
+  .perfume-cost {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+  }
+  .perfume-cost-old {
+    color: inherit;
+    font-family: Cent;
+    font-size: 1.7vw;
+    font-weight: 100;
+    text-decoration: line-through;
+  }
+  .perfume-cost-new {
+    font-family: Cent;
+    font-size: 1.8vw;
+    font-weight: 100;
+  }
+
+
+  .main-salon-container {
+    width: 80%;
+    padding-top: 5vw;
+  }
+  .salon-container {
+    display: flex;
+    width: 100%;
+    background-color: #222429;
+    color: white;
+  }
+  .salon-main-img {
+    height: 30vw;
+    width: auto;
+  }
+  .salon-text-content-container {
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+    box-sizing: border-box;
+    padding: 0.5vw 2vw;
+    overflow: hidden;
+  }
+  .salon-context-h3 {
+    font-family: Cent;
+    font-size: 1.5vw;
+  }
+  .salon-personalinfo-container {
+    display: flex;
+    align-items: center;
+    gap: 1vw
+  }
+  .salon-icon-img {
+    width: 2vw;
+    height: auto;
+  }
+  .salon-icon-text, .salon-p-text {
+    font-family: Cent;
+    font-size: 1vw;
+    margin: 0.5vw 0;
+  }
+  .salon-p-text1 {
+    margin-top: 2vw;
+  }
+  .salon-more-text {
+    color: red;
+    margin-top: 1.5vw;
+  }

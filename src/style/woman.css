@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Cent;
+    src: url(../font/Centurygothic/centurygothic.ttf);
+  }
+  @font-face {
+    font-family: Corma;
+    src: url(../font/CormorantSC/CormorantSC-Medium.ttf);
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2vw;
+  }
+  .nav-part {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    width: 80%;
+  }
+  .nav-part h3 {
+    font-family: Cent;
+    font-weight: 100;
+    color: black;
+    font-size: 1vw;
+  }
+  .nav-part img {
+    width: 0.5vw;
+    height: 1vw;
+    filter: brightness(80%);
+  }
+
+
+  .header-h1 {
+    width: 80%;
+    font-size: 2.5vw;
+    margin: 0;
+    font-family: Cent;
+  }
+  .perfumes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+  }
+  .single-perfume {
+    /* border: 1px solid rgba(0, 0, 0, 0.281); */
+    position: relative;
+    width: 22%;
+    height: 40%;
+    overflow: hidden;
+    margin-top: 5vw;
+  }
+  .sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5vw;
+  }
+  .perfume-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .perfume-img {
+    width: 10vw;
+    height: 15vw;
+    margin: 1vw 0 1vw 0;
+    filter: brightness(105%);
+  }
+  .perfume-img2 {
+    filter: brightness(107%);
+  }
+  .perfume-name {
+    font-size: 1.3vw;
+    font-family: Cent;
+  }
+  .perfume-available-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    color: inherit;
+  }
+  .perfume-available-container img {
+    width: 1vw;
+    height: 1vw;
+  }
+  .perfume-available-container h3 {
+    font-size: 1vw;
+    font-family: Cent;
+    font-weight: 100;
+  }
+  .perfume-paragraph-container {
+
+  }
+  .perfume-paragraph-container p {
+    font-family: Cent;
+    font-size: 1vw;
+    width: 90%;
+    color: #787878;
+  }
+  .perfume-cost {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+  }
+  .perfume-cost-old {
+    font-family: Cent;
+    font-size: 1.7vw;
+    color: #787878;
+    font-weight: 100;
+    text-decoration: line-through;
+  }
+  .perfume-cost-new {
+    font-family: Cent;
+    font-size: 1.8vw;
+    font-weight: 100;
+  }
+  .order-button-container {
+    display: flex;
+    justify-content: center;
+    margin: 1vw 0 0 0;
+  }
+  .order-button {
+    width: 100%;
+    background-color: #9B5A81;
+    padding: 1vw;
+    border-radius: 1.5vw;
+    font-size: 1.2vw;
+    font-family: Cent;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .order-button:hover {
+    background-color: #7e3f65;
+  }
+  .perfume-cost1 {
+    margin-top: 2vw;
+  }
+  .order-button1 {
+    margin-top: -1.6vw;
+  }
+  /* .order-button2 {
+    margin-top: -1.8vw;
+  } */
+
+  .linktosingleperfume {
+    text-decoration: none;
+    color: inherit;
+  }
+
